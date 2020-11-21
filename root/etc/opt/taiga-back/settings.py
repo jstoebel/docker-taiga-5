@@ -40,7 +40,7 @@ DATABASES = {
 # from django.core.management.utils import get_random_secret_key
 # print(get_random_secret_key())
 # EOF
-#SECRET_KEY = ''
+SECRET_KEY = '9%pno@m688el28@2+^y4v^&6wluqk-g#j#d7$dsjtht)o30dn1'
 
 #SITES = {
 #    "api": {
@@ -111,17 +111,17 @@ DATABASES = {
 ## REGISTRATION
 #########################################
 
-#PUBLIC_REGISTER_ENABLED = True
+PUBLIC_REGISTER_ENABLED = True
 
 # LIMIT ALLOWED DOMAINS FOR REGISTER AND INVITE
 # None or [] values in USER_EMAIL_ALLOWED_DOMAINS means allow any domain
-#USER_EMAIL_ALLOWED_DOMAINS = None
+USER_EMAIL_ALLOWED_DOMAINS = None
 
 # PUCLIC OR PRIVATE NUMBER OF PROJECT PER USER
-#MAX_PRIVATE_PROJECTS_PER_USER = None # None == no limit
-#MAX_PUBLIC_PROJECTS_PER_USER = None # None == no limit
-#MAX_MEMBERSHIPS_PRIVATE_PROJECTS = None # None == no limit
-#MAX_MEMBERSHIPS_PUBLIC_PROJECTS = None # None == no limit
+MAX_PRIVATE_PROJECTS_PER_USER = None # None == no limit
+MAX_PUBLIC_PROJECTS_PER_USER = None # None == no limit
+MAX_MEMBERSHIPS_PRIVATE_PROJECTS = None # None == no limit
+MAX_MEMBERSHIPS_PUBLIC_PROJECTS = None # None == no limit
 
 # GITHUB SETTINGS
 #GITHUB_URL = "https://github.com/"
